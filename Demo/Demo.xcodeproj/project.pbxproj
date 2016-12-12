@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E79AF3341DFE36A300C3A68A /* QLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E79AF3331DFE36A300C3A68A /* QLHomeViewController.m */; };
 		E7C87E5E1DFA973000BB183C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C87E5D1DFA973000BB183C /* main.m */; };
 		E7C87E611DFA973000BB183C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C87E601DFA973000BB183C /* AppDelegate.m */; };
 		E7C87E641DFA973000BB183C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C87E631DFA973000BB183C /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E79AF3321DFE36A300C3A68A /* QLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QLHomeViewController.h; sourceTree = "<group>"; };
+		E79AF3331DFE36A300C3A68A /* QLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QLHomeViewController.m; sourceTree = "<group>"; };
 		E7C87E591DFA973000BB183C /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7C87E5D1DFA973000BB183C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7C87E5F1DFA973000BB183C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -81,6 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E79AF3301DFE368C00C3A68A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E79AF3311DFE368C00C3A68A /* Home */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		E79AF3311DFE368C00C3A68A /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				E79AF3321DFE36A300C3A68A /* QLHomeViewController.h */,
+				E79AF3331DFE36A300C3A68A /* QLHomeViewController.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
 		E7C87E501DFA973000BB183C = {
 			isa = PBXGroup;
 			children = (
@@ -104,6 +124,7 @@
 		E7C87E5B1DFA973000BB183C /* Demo */ = {
 			isa = PBXGroup;
 			children = (
+				E79AF3301DFE368C00C3A68A /* Classes */,
 				E7C87E8F1DFA974300BB183C /* Tools */,
 				E7C87E5F1DFA973000BB183C /* AppDelegate.h */,
 				E7C87E601DFA973000BB183C /* AppDelegate.m */,
@@ -293,6 +314,7 @@
 				E7C87E641DFA973000BB183C /* ViewController.m in Sources */,
 				E7C87E611DFA973000BB183C /* AppDelegate.m in Sources */,
 				E7C87E5E1DFA973000BB183C /* main.m in Sources */,
+				E79AF3341DFE36A300C3A68A /* QLHomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -530,6 +552,7 @@
 				E7C87E881DFA973000BB183C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7C87E891DFA973000BB183C /* Build configuration list for PBXNativeTarget "DemoTests" */ = {
 			isa = XCConfigurationList;
@@ -538,6 +561,7 @@
 				E7C87E8B1DFA973000BB183C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E7C87E8C1DFA973000BB183C /* Build configuration list for PBXNativeTarget "DemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +570,7 @@
 				E7C87E8E1DFA973000BB183C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
